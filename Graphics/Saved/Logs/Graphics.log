@@ -4516,3 +4516,95 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.01.17-02.08.02:064][368]LogSavePackage: Moving '../../../../../../Users/Antony/Documents/GitHub/CGP3018-2223-Graphics-Assignment-2-Antony-Scott/Graphics/Saved/2C6NLIROC1TRGFR9B9CSAR39D4DD4F42DC994EFFEC648E94445EFD.tmp' to '../../../../../../Users/Antony/Documents/GitHub/CGP3018-2223-Graphics-Assignment-2-Antony-Scott/Graphics/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/GJ/2C6NLIROC1TRGFR9B9CSAR.uasset'
 [2023.01.17-02.08.02:084][368]AssetCheck: New page: Asset Save: InstancedFoliageActor_25600_0_0_0
 [2023.01.17-02.08.02:084][368]LogContentValidation: Display: Validating InstancedFoliageActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.InstancedFoliageActor_25600_0_0_0
+[2023.01.17-02.10.29:991][548]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.17-02.10.29:998][548]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.17-02.10.29:999][548]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.17-02.10.29:999][548]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.17-02.10.29:999][548]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.01.17-02.10.29:999][548]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.01.17-02.10.29:999][548]LogWorldPartition: Display: GetPartitionedActors took 42 us
+[2023.01.17-02.10.29:999][548]LogWorldPartition: Display: GenerateStreaming took 437 us
+[2023.01.17-02.10.29:999][548]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.17-02.10.29:999][548]PIE: New page: PIE session: ThirdPersonMap (17 Jan 2023, 02:10:29)
+[2023.01.17-02.10.29:999][548]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.01.17-02.10.30:021][548]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.01.17-02.10.30:021][548]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022198s)
+[2023.01.17-02.10.30:021][548]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.022254s)
+[2023.01.17-02.10.30:021][548]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.17-02.10.30:022][548]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.01.17-02.10.30:022][548]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.17-02.10.30:022][548]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.01.17-02.10.30:027][548]LogWorldPartition: Display: WorldPartition initialize took 4 ms
+[2023.01.17-02.10.30:027][548]LogPlayLevel: PIE: World Init took: (0.005401s)
+[2023.01.17-02.10.30:049][548]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.01.17-02.10.30:051][548]LogAudio: Display: Creating Audio Device:                 Id: 32, Scope: Unique, Realtime: True
+[2023.01.17-02.10.30:051][548]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.17-02.10.30:051][548]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.17-02.10.30:051][548]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.17-02.10.30:051][548]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.17-02.10.30:051][548]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.17-02.10.30:051][548]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.17-02.10.30:051][548]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.17-02.10.30:051][548]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.17-02.10.30:051][548]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.17-02.10.30:051][548]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.17-02.10.30:051][548]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.17-02.10.30:053][548]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.17-02.10.30:077][548]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (SteelSeries Arctis Pro Chat)
+[2023.01.17-02.10.30:077][548]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.17-02.10.30:077][548]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.17-02.10.30:077][548]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.17-02.10.30:077][548]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=32
+[2023.01.17-02.10.30:077][548]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=32
+[2023.01.17-02.10.30:080][548]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=32
+[2023.01.17-02.10.30:080][548]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=32
+[2023.01.17-02.10.30:080][548]LogInit: FAudioDevice initialized.
+[2023.01.17-02.10.30:080][548]LogAudio: Display: Audio Device (ID: 32) registered with world 'ThirdPersonMap'.
+[2023.01.17-02.10.30:090][548]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.01.17-02.10.30:096][548]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.01.17-02.10.30
+[2023.01.17-02.10.30:097][548]LogWorld: Bringing up level for play took: 0.006512
+[2023.01.17-02.10.30:099][548]LogOnline: OSS: Created online subsystem instance for: :Context_55
+[2023.01.17-02.10.30:102][548]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=1922.013
+[2023.01.17-02.10.30:102][548]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.17-02.10.30:102][548]PIE: Server logged in
+[2023.01.17-02.10.30:103][548]PIE: Play in editor total start time 0.106 seconds.
+[2023.01.17-02.10.58:820][337]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.17-02.10.58:820][337]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.01.17-02.10.58:820][337]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.17-02.10.58:823][337]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.17-02.10.58:834][337]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.17-02.10.58:839][337]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.17-02.10.58:862][337]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.17-02.10.58:862][337]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2023.01.17-02.10.58:863][337]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2023.01.17-02.10.58:874][337]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.01.17-02.10.58:916][338]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2023.01.17-02.11.05:166][677]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.01.17-02.11.05:260][677]LogSavePackage: Moving output files for package: /Game/StarterContent/Props/SM_Bush_FoliageType
+[2023.01.17-02.11.05:261][677]LogSavePackage: Moving '../../../../../../Users/Antony/Documents/GitHub/CGP3018-2223-Graphics-Assignment-2-Antony-Scott/Graphics/Saved/SM_Bush_FoliageType379B85D54C246DCE6E22E79A379BD27A.tmp' to '../../../../../../Users/Antony/Documents/GitHub/CGP3018-2223-Graphics-Assignment-2-Antony-Scott/Graphics/Content/StarterContent/Props/SM_Bush_FoliageType.uasset'
+[2023.01.17-02.11.05:275][677]LogSavePackage: Moving output files for package: /Game/StarterContent/Props/SM_Rock_FoliageType
+[2023.01.17-02.11.05:276][677]LogSavePackage: Moving '../../../../../../Users/Antony/Documents/GitHub/CGP3018-2223-Graphics-Assignment-2-Antony-Scott/Graphics/Saved/SM_Rock_FoliageType61ABE1DD47B11A9E5078B7809F0AFB96.tmp' to '../../../../../../Users/Antony/Documents/GitHub/CGP3018-2223-Graphics-Assignment-2-Antony-Scott/Graphics/Content/StarterContent/Props/SM_Rock_FoliageType.uasset'
+[2023.01.17-02.11.05:288][677]LogSavePackage: Moving output files for package: /Game/StarterContent/Props/cactus2_Tree_1_FoliageType
+[2023.01.17-02.11.05:289][677]LogSavePackage: Moving '../../../../../../Users/Antony/Documents/GitHub/CGP3018-2223-Graphics-Assignment-2-Antony-Scott/Graphics/Saved/cactus2_Tree_1_FoliageType055B5C1844E90595E698F0B444F01A4B.tmp' to '../../../../../../Users/Antony/Documents/GitHub/CGP3018-2223-Graphics-Assignment-2-Antony-Scott/Graphics/Content/StarterContent/Props/cactus2_Tree_1_FoliageType.uasset'
+[2023.01.17-02.11.05:305][677]LogSavePackage: Moving output files for package: /Game/StarterContent/Props/thorns
+[2023.01.17-02.11.05:305][677]LogSavePackage: Moving '../../../../../../Users/Antony/Documents/GitHub/CGP3018-2223-Graphics-Assignment-2-Antony-Scott/Graphics/Saved/thorns4A86A57349C0CA796EC939897FF7385D.tmp' to '../../../../../../Users/Antony/Documents/GitHub/CGP3018-2223-Graphics-Assignment-2-Antony-Scott/Graphics/Content/StarterContent/Props/thorns.uasset'
+[2023.01.17-02.11.05:318][677]LogSavePackage: Moving output files for package: /Game/StarterContent/Props/Tree_1Mat_ncl1_1
+[2023.01.17-02.11.05:318][677]LogSavePackage: Moving '../../../../../../Users/Antony/Documents/GitHub/CGP3018-2223-Graphics-Assignment-2-Antony-Scott/Graphics/Saved/Tree_1Mat_ncl1_1DB88E3414914F2F8504EFFA3C2F0E007.tmp' to '../../../../../../Users/Antony/Documents/GitHub/CGP3018-2223-Graphics-Assignment-2-Antony-Scott/Graphics/Content/StarterContent/Props/Tree_1Mat_ncl1_1.uasset'
+[2023.01.17-02.11.05:329][677]LogSavePackage: Moving output files for package: /Game/StarterContent/Props/cactus2_Tree_0_FoliageType
+[2023.01.17-02.11.05:330][677]LogSavePackage: Moving '../../../../../../Users/Antony/Documents/GitHub/CGP3018-2223-Graphics-Assignment-2-Antony-Scott/Graphics/Saved/cactus2_Tree_0_FoliageTypeDCCCACE04E062A2C0A06B28235829C7B.tmp' to '../../../../../../Users/Antony/Documents/GitHub/CGP3018-2223-Graphics-Assignment-2-Antony-Scott/Graphics/Content/StarterContent/Props/cactus2_Tree_0_FoliageType.uasset'
+[2023.01.17-02.11.05:342][677]LogSavePackage: Moving output files for package: /Game/StarterContent/Props/Tree_0Mat_ncl1_1
+[2023.01.17-02.11.05:342][677]LogSavePackage: Moving '../../../../../../Users/Antony/Documents/GitHub/CGP3018-2223-Graphics-Assignment-2-Antony-Scott/Graphics/Saved/Tree_0Mat_ncl1_1526B9BDA477B6E402EFBBB99CC6BA931.tmp' to '../../../../../../Users/Antony/Documents/GitHub/CGP3018-2223-Graphics-Assignment-2-Antony-Scott/Graphics/Content/StarterContent/Props/Tree_0Mat_ncl1_1.uasset'
+[2023.01.17-02.11.05:468][677]LogSavePackage: Moving output files for package: /Game/StarterContent/Props/plant07
+[2023.01.17-02.11.05:468][677]LogSavePackage: Moving '../../../../../../Users/Antony/Documents/GitHub/CGP3018-2223-Graphics-Assignment-2-Antony-Scott/Graphics/Saved/plant0729BFC8034BD8D8BCBB5A85899440B3C9.tmp' to '../../../../../../Users/Antony/Documents/GitHub/CGP3018-2223-Graphics-Assignment-2-Antony-Scott/Graphics/Content/StarterContent/Props/plant07.uasset'
+[2023.01.17-02.11.05:528][677]LogSavePackage: Moving output files for package: /Game/StarterContent/Props/cactus2_Tree_1
+[2023.01.17-02.11.05:528][677]LogSavePackage: Moving '../../../../../../Users/Antony/Documents/GitHub/CGP3018-2223-Graphics-Assignment-2-Antony-Scott/Graphics/Saved/cactus2_Tree_1F3EE9E57420B970BA9355EB0377768E8.tmp' to '../../../../../../Users/Antony/Documents/GitHub/CGP3018-2223-Graphics-Assignment-2-Antony-Scott/Graphics/Content/StarterContent/Props/cactus2_Tree_1.uasset'
+[2023.01.17-02.11.05:572][677]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.17-02.11.05:572][677]LogContentValidation: Display: Validating FoliageType_InstancedStaticMesh /Game/StarterContent/Props/SM_Rock_FoliageType.SM_Rock_FoliageType
+[2023.01.17-02.11.05:573][677]LogContentValidation: Display: Validating FoliageType_InstancedStaticMesh /Game/StarterContent/Props/SM_Bush_FoliageType.SM_Bush_FoliageType
+[2023.01.17-02.11.05:573][677]LogContentValidation: Display: Validating Texture2D /Game/StarterContent/Props/thorns.thorns
+[2023.01.17-02.11.05:573][677]LogContentValidation: Display: Validating Material /Game/StarterContent/Props/Tree_1Mat_ncl1_1.Tree_1Mat_ncl1_1
+[2023.01.17-02.11.05:573][677]LogContentValidation: Display: Validating StaticMesh /Game/StarterContent/Props/cactus2_Tree_1.cactus2_Tree_1
+[2023.01.17-02.11.05:573][677]LogContentValidation: Display: Validating Texture2D /Game/StarterContent/Props/plant07.plant07
+[2023.01.17-02.11.05:573][677]LogContentValidation: Display: Validating Material /Game/StarterContent/Props/Tree_0Mat_ncl1_1.Tree_0Mat_ncl1_1
+[2023.01.17-02.11.05:573][677]LogContentValidation: Display: Validating FoliageType_InstancedStaticMesh /Game/StarterContent/Props/cactus2_Tree_1_FoliageType.cactus2_Tree_1_FoliageType
+[2023.01.17-02.11.05:573][677]LogContentValidation: Display: Validating FoliageType_InstancedStaticMesh /Game/StarterContent/Props/cactus2_Tree_0_FoliageType.cactus2_Tree_0_FoliageType
